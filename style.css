@@ -1,3 +1,41 @@
 body {
     background-repeat: no-repeat;
 }
+
+.logo_main {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}
+
+header {
+    /*-----background head-----*/
+    padding: 1vw;
+    text-align: center;
+    font-weight: bold;
+    max-width: 100vw;
+    margin-bottom: auto;
+}
+
+header ul {
+    /*----aligne la liste horizontalement sans puce-----*/
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header ul li {
+    /*------ecart entre éléments------*/
+    margin-inline: 1vw;
+}
