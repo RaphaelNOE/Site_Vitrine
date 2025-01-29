@@ -46,7 +46,7 @@ footer ul {
     list-style: none;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 footer ul li {
@@ -61,10 +61,6 @@ footer ul li {
 .gradient-custom {
     /* fallback for old browsers */
     background: #ffa7a7;
-  
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgba(10,10,10,1), rgba(100,0,25,1));
-  
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(rgba(50,0,25,1),rgba(10,10,10,1))
   }
@@ -73,13 +69,17 @@ h2 {
     text-align: center;
 }
 
+/*
+H3 edit plus bas (categorie organisation)
+*/
+
 body {
     margin-top: 10em;
     background-repeat: no-repeat;
 }
 
 .logo_main {
-    margin-top: 10px;
+    margin-top: 100px;
     width: 750px;
     height: 150px;
     display: block;
@@ -125,29 +125,119 @@ body {
 ////////////////////////////////////////////////////////////SHOP//////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.prod {
-    margin-bottom: 25px;
-    border-style: solid;
-    width: 400px;
-    height: 400px;
-}
-
 .prodrow {
     flex-direction: row;
+}
+
+.prodrow² {
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+/*-------------------Box sample-------------------*/
+
+.prod {
+    margin-bottom: 25px;
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+        /* fallback for old browsers */
+        background: rgb(191,177,120); 
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(rgba(100,0,25,1),rgba(10,10,10,1))
 }
 
 /*////////////////////////////////////////////////////////*/
 /*///////////////////////Jeux/////////////////////////////*/
 /*////////////////////////////////////////////////////////*/
 
+/*-------------------GTA-------------------*/
+
 .shop_gta {
-    height: 400px;
-    width: 400px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 110px;
+}
+
+/*-------------------IW-------------------*/
+
+.shop_iw {
+    display: block;
+    margin-left: 45px;
+    margin-top: 110px;
+}
+
+/*-------------------UK-------------------*/
+
+.shop_UK {
+    display: block;
+    margin-left: 65px;
+    margin-top: 120px;
+}
+
+/*-------------------PD2-------------------*/
+
+.shop_PD2 {
+    display: block;
+    margin-left: 55px;
+    margin-top: 120px;
+}
+
+/*-------------------MC-------------------*/
+
+.shop_mc {
+    display: block;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+/*-------------------MKW-------------------*/
+
+.shop_mkw {
+    display: block;
+    margin-left: 55px;
+    margin-top: 120px;
+}
+
+/*-------------------PS5C-------------------*/
+
+.shop_ps5c {
+    display: block;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+
+/*-------------------Oculus-------------------*/
+
+.shop_oculus {
+    display: block;
+    margin-left: 55px;
+    margin-top: 100px;
+}
+
+/*-------------------F1 23-------------------*/
+
+.shop_F123 {
+    display: block;
+    margin-left: 55px;
+    margin-top: 110px;
+}
+
+/*-------------------Screen-------------------*/
+
+.shop_ecran {
+    display: block;
+    margin-left: 55px;
+    margin-top: 90px;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////orga//////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.orgarow {
+    flex-direction: row;
+}
 
 .orga {
     margin-top: 25px;
@@ -156,3 +246,12 @@ body {
     height: 300px;
     flex-direction: row;
 }
+
+H3, .organom {
+    text-align: center;
+}
+/*
+.sanchez {
+    width: 295px;
+    margin-top: 60px;
+}*/
