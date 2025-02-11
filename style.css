@@ -271,3 +271,24 @@ H3, .organom {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/*-------------------PS5C-------------------*/
+
+.PS5C_cover {
+    margin-left: 12%;
+    margin-top: 30%;
+}
+
+/*-------------------Oculus-------------------*/
+
+.occulus_cover {
+    margin-left: 12%;
+    margin-top: 40%;
+}
+
+/*-------------------Screen-------------------*/
+
+.ecran_cover {
+    margin-left: 12%;
+    margin-top: 35%;
+}
