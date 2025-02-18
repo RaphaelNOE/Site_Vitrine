@@ -10,6 +10,8 @@ header {
     position: sticky;
     top: 0;
     padding: 10px 16px;
+    /*--fix img passant au dessus du header--*/
+    z-index: 1;
 }
 
 header ul {
@@ -273,7 +275,7 @@ H3, .organom {
         /* fallback for old browsers */
         background: rgb(191,177,120); 
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background: linear-gradient(rgba(100,0,25,1),rgba(10,10,10,1))
+        background: linear-gradient(rgba(80,0,0,1),rgba(10,10,10,1))
 }
 
 .blocs {
@@ -301,4 +303,18 @@ H3, .organom {
 .ecran_cover {
     margin-left: 12%;
     margin-top: 35%;
+}
+
+/*--------------------------------------------*/
+/*--------------------BTN---------------------*/
+/*--------------------------------------------*/
+
+.btn-outline-danger {
+    border-color: #ff0000 !important;
+    color: #ff0000 !important;
+}
+
+.btn-outline-danger:hover, .btn-outline-danger:active {
+    background-color: #ff0000 !important;
+    color: #ffffff !important;
 }
