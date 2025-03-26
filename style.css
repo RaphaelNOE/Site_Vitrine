@@ -71,9 +71,17 @@ h2 {
     text-align: center;
 }
 
+a,a:visited {
+    color: rgb(255,255,255);
+}
+
 /*
 H3 edit plus bas (categorie organisation)
 */
+
+.cart:h2 {
+    color: rgb(255,255,255);
+}
 
 body {
     margin-top: 10em;
